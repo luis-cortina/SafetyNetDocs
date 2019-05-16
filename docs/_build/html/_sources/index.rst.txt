@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to SafetyNet Web Automation Tools for C#'s documentation!
-==================================================
+=================================================================
 
 SafetyNet Tools for C# is a test automation tool for Visual Studio developers and testers.
 
@@ -23,16 +23,21 @@ It enables the following features in your applications:
 | Create tests with no previous knowledge of Selenium or C# coding. This helps your testers to collaborated with devs to create automated UI Tests.
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Not a Record and Playback kind off tool
-==================
+Not a Record and Playback Tool
+==============================
 
 We do not believe that Record and Playback is the right way to create a successful test automation framework, so we don't currently support this feature. Our suggested workflow is: 
 
 * Record your User Interface and group controls into UI Maps following the Page Object Model.
-* Create your tests using the recorded controls and reuse functionality as much as possible.
+* Create your tests using the recorded controls.
+* Create reusable functionality snippets to speed up maintenance.
+* Test early and often to maximize the test framework benefits.
+
+
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+   :caption: Introduction
+
+   intro/getting_started
+  
