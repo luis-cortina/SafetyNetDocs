@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to SafetyNet Web Automation Tools for C#'s documentation!
+Welcome to SafetyNet Web Test Tools for C#'s documentation!
 =================================================================
 
 SafetyNet Tools for C# is a test automation tool for Visual Studio developers and testers.
