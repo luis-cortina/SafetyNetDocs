@@ -16,3 +16,13 @@ With the tool installation, a new type of Visual Studio Project gets added that 
    :align: center
 
 The project will contain all the nuget packages that you need to start testing.
+CLick create project and wait for it to be created. The current template include:
+
+* MsTest version 2 assemblies, since this is basically an enhanced unit test project.
+* Custom selenium webdriver dll (Is the strong named version of the package)
+* Chrome driver
+* SafetyNet framework libraries
+* A PageObjects folder containing a default seluimap file.
+
+.. image:: images/new_project_result.png
+   :align: center
