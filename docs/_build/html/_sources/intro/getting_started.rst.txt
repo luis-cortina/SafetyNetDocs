@@ -1,7 +1,7 @@
 Getting Started
 ===============
 
-To get started, please install the tool from the Visual Studio Marketplace. At this point only Visual Studio 2017 is supported.
+To get started, please install the tool from the Visual Studio Marketplace. At this point only Visual Studio 2017/2019 are supported.
 
 Visual Studio Quick Start Project
 =================================

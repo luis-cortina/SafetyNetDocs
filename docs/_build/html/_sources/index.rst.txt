@@ -11,7 +11,7 @@ SafetyNet Tools for C# is a test automation tool for Visual Studio developers an
 It enables the following features in your applications:
 
 | **Recording all control inside website areas** 
-| Click on a div or content control and record all interactable web elements inside of it. You can also record individual elements depending on your needs.
+| Click on a div or content control and record all interactable web elements inside of it. You can also record individual elements by clicking on them.
 
 | **Automated CSS Selector generation** 
 | The recorded controls will automatically have unique css selectors that are optimized for uniqueness and resiliency once the application changes.
