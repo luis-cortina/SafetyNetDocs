@@ -41,4 +41,12 @@ We do not believe that Record and Playback is the right way to create a successf
 
    intro/getting_started
    intro/recording
-  
+
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+   :caption: Adding and Recording Controls
+
+   recording/area_recording
+   recording/click_recording
+   recording/click_recording

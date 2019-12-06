@@ -1,5 +1,5 @@
-Recording your Web Application
-==============================
+Tool Overview
+=============
 
 You can start recording your website in two ways:
 
@@ -26,7 +26,7 @@ There is two ways to add elements to the UI Map after its creation.
 .. image:: images/edit_uimap_editor.png
 
 Recorder Window and Controls
-============================
+----------------------------
 
 Once the recorder and browser are ready, you will see the Recorder Window at the left bottom corner of the screen.
 
@@ -41,15 +41,15 @@ Once the recorder and browser are ready, you will see the Recorder Window at the
 #. Create New UI Map File: It will create a new UI Map for quick recordings.
 
 UI Map Contents Window
-======================
+----------------------
 
 The UI Map Contents Window displays elements recorded into the UI Map and allow you to make modifications.
 
 .. image:: images/uimap_window_contents.png
 
-#. Delete elements: Delete selected items from UI Map after Save button is pressed.
-#. Rename element: Renames items after Save button is pressed(Double Click).
-#. Highlight element: It will highlight the selected element in the browser if found (Context menu).
+#. Delete elements: Delete selected items from UI Map after Save button is pressed(Context menu).
+#. Rename element: Renames items after Save button is pressed(Double Click)(Context menu).
+#. Highlight element: It will highlight the selected element in the browser if found(Context menu).
 #. Update element using another element: When two items are selected, it will allow to update an element with another element properties(This will delete the source element)
 #. Start Area Recording for saved areas: If any area recordings are present, it will start recording all the elements inside of them automatically based on the UI Map settings.
 #. Add control by CSS Selector: Add a control to the UI Map if you already know the CSS selector.

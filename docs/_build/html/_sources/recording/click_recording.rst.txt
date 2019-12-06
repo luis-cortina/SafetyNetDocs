@@ -1,0 +1,17 @@
+Click Recording
+===============
+
+Click Recording enables you to click on controls to add them to the UI Map. This is allowed for any control.
+
+Recording
+---------
+
+To record, press the Start Click Recording button, and a few things will happen:
+
+#. The browser will refresh and when hovering, a blue border will appear indicating that when clicked the element will be recorded.
+#. On the Recorder Window, a stop button will appear so you can stop the session when you are done.
+#. When you click on an element, the control will appear on the content window.
+#. Click the Save button to save changes to the UI Map file.
+
+.. image:: images/click_recording.gif
+   :align: center

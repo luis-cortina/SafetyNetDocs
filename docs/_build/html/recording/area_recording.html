@@ -1,0 +1,231 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Area Recording &mdash; SafetyNet Tools for C# 1.0.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Tool Overview" href="../intro/recording.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> SafetyNet Tools for C#
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/recording.html">Tool Overview</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Recording Controls</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Area Recording</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#recording">Recording</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SafetyNet Tools for C#</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Area Recording</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/recording/area_recording.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="area-recording">
+<h1>Area Recording<a class="headerlink" href="#area-recording" title="Permalink to this headline">¶</a></h1>
+<p>Area Reording enables you to record all interactable controls inside a specific area(div or any content control).</p>
+<p>By default the following controls are automatically recorded:</p>
+<ul class="simple">
+<li><p>&lt;select&gt;&lt;/select&gt;</p></li>
+<li><p>&lt;a&gt;&lt;/a&gt;</p></li>
+<li><p>&lt;input&gt;&lt;/input&gt; (text, checkbox, radio, submit)</p></li>
+<li><p>&lt;button&gt;&lt;/button&gt;</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Hidden controls are not recorded by default. This can be changed in the Recording Settings for the particular UI Map.</p>
+</div>
+<div class="section" id="recording">
+<h2>Recording<a class="headerlink" href="#recording" title="Permalink to this headline">¶</a></h2>
+<p>To record, press the Start Area Recording button, and a few things will happen:</p>
+<ol class="arabic simple">
+<li><p>The browser will refresh and when hovering, a blue border will appear indicating that when clicked it will record all controls withing that area.</p></li>
+<li><p>On the Recorder Window, a stop button will appear so you can stop the session when you are done.</p></li>
+<li><p>When you click on a browser area, all the controls will appear on the content window.</p></li>
+<li><p>Click the Save button to save changes to the UI Map file.</p></li>
+</ol>
+<img alt="../_images/area_recording.gif" class="align-center" src="../_images/area_recording.gif" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../intro/recording.html" class="btn btn-neutral float-left" title="Tool Overview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, BIZDIRECT Consulting INC.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
