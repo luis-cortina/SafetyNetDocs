@@ -13,8 +13,6 @@ By default the following controls are automatically recorded:
 .. note::
     Hidden controls are not recorded by default. This can be changed in the Recording Settings for the particular UI Map.
 
-Recording
----------
 
 To record, press the Start Area Recording button, and a few things will happen:
 
