@@ -50,3 +50,4 @@ We do not believe that Record and Playback is the right way to create a successf
    recording/area_recording
    recording/click_recording
    recording/add_custom_css
+   recording/control_attributes
