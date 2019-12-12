@@ -23,3 +23,11 @@ To record, press the Start Area Recording button, and a few things will happen:
 
 .. image:: images/area_recording.gif
    :align: center
+
+Recording Settings
+------------------
+
+Recording settings allow you to select which types of controls to record, and wheter or not to record hidden elements. Once changes are made to the settings, they will be saved with the UI Map.
+
+.. image:: images/recording_settings.png
+   :align: center

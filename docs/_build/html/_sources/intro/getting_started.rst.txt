@@ -26,3 +26,7 @@ CLick create project and wait for it to be created. The current template include
 
 .. image:: images/new_project_result.png
    :align: center
+
+
+Nuget Packages
+--------------
