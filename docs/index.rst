@@ -58,3 +58,10 @@ We do not believe that Record and Playback is the right way to create a successf
    :caption: UI Maps Maintenance
 
    maintenance/uimap_maintenance
+
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+   :caption: Writing Tests
+
+   tests/coded_tests

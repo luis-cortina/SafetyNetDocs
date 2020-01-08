@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>UI Map Maintenance &mdash; SafetyNet Tools for C# 1.0.0.0 documentation</title>
+  <title>C# Coded Tests &mdash; SafetyNet Tools for C# 1.0.0.0 documentation</title>
   
 
   
@@ -35,8 +35,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="../tests/coded_tests.html" />
-    <link rel="prev" title="Control Attributes" href="../recording/control_attributes.html" /> 
+    <link rel="prev" title="UI Map Maintenance" href="../maintenance/uimap_maintenance.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -94,12 +93,8 @@
 </ul>
 <p class="caption"><span class="caption-text">UI Maps Maintenance</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">UI Map Maintenance</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#locate-all-controls">Locate All controls</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#repeat-area-recording">Repeat Area Recording</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#update-controls-with-new-references">Update Controls with new References</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../maintenance/uimap_maintenance.html">UI Map Maintenance</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">C# Coded Tests</a></li>
 </ul>
 
             
@@ -145,13 +140,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>UI Map Maintenance</li>
+      <li>C# Coded Tests</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/maintenance/uimap_maintenance.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/tests/coded_tests.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -164,34 +159,14 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="ui-map-maintenance">
-<h1>UI Map Maintenance<a class="headerlink" href="#ui-map-maintenance" title="Permalink to this headline">¶</a></h1>
-<p>One of the biggest challenges to test automation projects is how to evolve with the application under test.
-Developer tools are as productive as ever but test automation tools haven’t been as good adapting to change.
-The way this tool attempts to solve this issue is just a start to becoming more productive and it consists of three main steps:</p>
-<ol class="arabic simple">
-<li><p>Finding controls that are missing or the CSS Selector doesn’t work anymore.</p></li>
-<li><p>Using Area Recording, repeat the recording of the areas that are saved into the UI Maps to find new controls, or old controls with updated CSS Selectors.</p></li>
-<li><p>Updating References so our tests keep working the same.</p></li>
-</ol>
-<p>We will be planning new and better ways to do this in the future as the tool matures.</p>
-<div class="section" id="locate-all-controls">
-<h2>Locate All controls<a class="headerlink" href="#locate-all-controls" title="Permalink to this headline">¶</a></h2>
-<p>In a nutshell, Locate all controls iterates over the controls in the UI Map and identifies the ones that can’t be found using the current CSS Selectors.
-Missing controls will be marked in red.</p>
-<img alt="../_images/locating_controls.gif" class="align-center" src="../_images/locating_controls.gif" />
-</div>
-<div class="section" id="repeat-area-recording">
-<h2>Repeat Area Recording<a class="headerlink" href="#repeat-area-recording" title="Permalink to this headline">¶</a></h2>
-<p>Repeat Area Recording is an easy way to repeat the recording within the areas you clicked while first creating the UI Map. This will take into account the recording settings currently saved
-to the file. This will add any new controls that is not currently in the UI Map.</p>
-<img alt="../_images/repeat_area_recording.gif" class="align-center" src="../_images/repeat_area_recording.gif" />
-</div>
-<div class="section" id="update-controls-with-new-references">
-<h2>Update Controls with new References<a class="headerlink" href="#update-controls-with-new-references" title="Permalink to this headline">¶</a></h2>
-<p>The third step is to update broken controls with new ones recorded using either the area recording or the click recording tool.</p>
-<img alt="../_images/update_control_refs.gif" class="align-center" src="../_images/update_control_refs.gif" />
-</div>
+  <div class="section" id="c-coded-tests">
+<h1>C# Coded Tests<a class="headerlink" href="#c-coded-tests" title="Permalink to this headline">¶</a></h1>
+<p>This is the most powerful way for developers to write their own tests. There is a predefined template to create the shell of a test. Here are a few notes bout using the UIMaps inside the tests.</p>
+<ul class="simple">
+<li><p>UI Maps will show in code as static classes.</p></li>
+<li><p>Each element shows as a property of the class. (UIMapName.Element)</p></li>
+<li><p>Each element will correspond to the type they have on the website.</p></li>
+</ul>
 </div>
 
 
@@ -202,10 +177,8 @@ to the file. This will add any new controls that is not currently in the UI Map.
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../tests/coded_tests.html" class="btn btn-neutral float-right" title="&lt;no title&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="../recording/control_attributes.html" class="btn btn-neutral float-left" title="Control Attributes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../maintenance/uimap_maintenance.html" class="btn btn-neutral float-left" title="UI Map Maintenance" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
