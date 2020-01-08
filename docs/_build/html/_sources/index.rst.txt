@@ -57,4 +57,4 @@ We do not believe that Record and Playback is the right way to create a successf
    :hidden:
    :caption: UI Maps Maintenance
 
-   maintenance/locating_controls
+   maintenance/uimap_maintenance
