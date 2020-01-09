@@ -19,6 +19,9 @@ It enables the following features in your applications:
 | **C# Object Model** 
 | All your recorded controls will be transformed into C# objects with specific types matching the web element type. We support the Page Object Model by allowing you to create multiple UI Maps files.
 
+| **C# Coded Tests** 
+| A powerful way to allow developers to create and maintain tests.
+
 | **Drag and Drop UI for test creation** 
 | Create tests with no previous knowledge of Selenium or C# coding. This helps your testers to collaborated with devs to create automated UI Tests.
 
