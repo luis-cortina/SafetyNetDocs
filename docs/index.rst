@@ -68,3 +68,4 @@ We do not believe that Record and Playback is the right way to create a successf
    :caption: Writing Tests
 
    tests/coded_tests
+   tests/tests_ui

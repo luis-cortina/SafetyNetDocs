@@ -22,7 +22,7 @@ It enables the following features in your applications:
 | **C# Coded Tests** 
 | A powerful way to allow developers to create and maintain tests.
 
-| **Drag and Drop UI for test creation (Coming Soon)** 
+| **Drag and Drop UI for test creation** 
 | Create tests with no previous knowledge of Selenium or C# coding. This helps your testers to collaborated with devs to create automated UI Tests.
 
 
@@ -68,3 +68,4 @@ We do not believe that Record and Playback is the right way to create a successf
    :caption: Writing Tests
 
    tests/coded_tests
+   tests/tests_ui
