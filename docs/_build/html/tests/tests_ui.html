@@ -34,7 +34,8 @@
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" /> 
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="C# Coded Tests" href="coded_tests.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -95,8 +96,13 @@
 <li class="toctree-l1"><a class="reference internal" href="../maintenance/uimap_maintenance.html">UI Map Maintenance</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Writing Tests</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="coded_tests.html">C# Coded Tests</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Creating Tests using the UI</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#parameters">Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-sources">Data Sources</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -168,6 +174,19 @@ This allows non-devs to collaborate with developers using a drag and drop interf
 If there are complex steps or things that the test cannot do yet, devs can create snippets of code that can be reused inside the UI.</p>
 <p>When a new SafetyNet Web Test item is created, a Tool Window with all the options and UI Map objects automatically opens.</p>
 <img alt="../_images/create_tests.gif" class="align-center" src="../_images/create_tests.gif" />
+<p>Everytime you drag a control or browser action, a popup shows up with the available actions to do:</p>
+<ul class="simple">
+<li><p>For controls: Click, Hover, Set Value, Validate and Send Keys.</p></li>
+<li><p>For browser actions: Maximize, Refresh and Go To Url.</p></li>
+</ul>
+<div class="section" id="parameters">
+<h2>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h2>
+<p>You can also have test level parameters that you can use to set values throughout the test.</p>
+</div>
+<div class="section" id="data-sources">
+<h2>Data Sources<a class="headerlink" href="#data-sources" title="Permalink to this headline">¶</a></h2>
+<p>So far, only CSV files are supported as data sources. More will come in the future.</p>
+</div>
 </div>
 
 
@@ -175,6 +194,13 @@ If there are complex steps or things that the test cannot do yet, devs can creat
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="coded_tests.html" class="btn btn-neutral float-left" title="C# Coded Tests" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
