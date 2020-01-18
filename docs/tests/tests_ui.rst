@@ -19,6 +19,9 @@ Everytime you drag a control or browser action, a popup shows up with the availa
 - For controls: Click, Hover, Set Value, Validate and Send Keys.
 - For browser actions: Maximize, Refresh and Go To Url.
 
+.. image:: images/test_steps.gif
+   :align: center
+
 Parameters
 ----------
 You can also have test level parameters that you can use to set values throughout the test.
