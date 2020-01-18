@@ -4,6 +4,7 @@ Creating Tests using the UI
 Another way to create tests is using the SafetyNet Web Test items. 
 This allows non-devs to collaborate with developers using a drag and drop interface to create test steps.
 If there are complex steps or things that the test cannot do yet, devs can create snippets of code that can be reused inside the UI.
+All these steps are then translated into a C# Test class that can be run standalone and on a CI/CD pipeline.
 
 When a new SafetyNet Web Test item is created, a Tool Window with all the options and UI Map objects automatically opens.
 
