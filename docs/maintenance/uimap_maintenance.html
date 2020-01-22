@@ -1,0 +1,251 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>UI Map Maintenance &mdash; SafetyNet Tools for C# 1.0.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="C# Coded Tests" href="../tests/coded_tests.html" />
+    <link rel="prev" title="Control Attributes" href="../recording/control_attributes.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> SafetyNet Tools for C#
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/recording.html">Tool Overview</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Recording Controls</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../recording/area_recording.html">Area Recording</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recording/click_recording.html">Click Recording</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recording/add_custom_css.html">Add control by CSS Selector</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recording/control_attributes.html">Control Attributes</a></li>
+</ul>
+<p class="caption"><span class="caption-text">UI Maps Maintenance</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">UI Map Maintenance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#locate-all-controls">Locate All controls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#repeat-area-recording">Repeat Area Recording</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#update-controls-with-new-references">Update Controls with new References</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Writing Tests</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tests/coded_tests.html">C# Coded Tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tests/tests_ui.html">Creating Tests using the UI</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SafetyNet Tools for C#</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>UI Map Maintenance</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/maintenance/uimap_maintenance.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="ui-map-maintenance">
+<h1>UI Map Maintenance<a class="headerlink" href="#ui-map-maintenance" title="Permalink to this headline">¶</a></h1>
+<p>One of the biggest challenges to test automation projects is how to evolve with the application under test.
+Developer tools are as productive as ever but test automation tools haven’t been as good adapting to change.
+The way this tool attempts to solve this issue is just a start to becoming more productive and it consists of three main steps:</p>
+<ol class="arabic simple">
+<li><p>Finding controls that are missing or the CSS Selector doesn’t work anymore.</p></li>
+<li><p>Using Area Recording, repeat the recording of the areas that are saved into the UI Maps to find new controls, or old controls with updated CSS Selectors.</p></li>
+<li><p>Updating References so our tests keep working the same.</p></li>
+</ol>
+<p>We will be planning new and better ways to do this in the future as the tool matures.</p>
+<div class="section" id="locate-all-controls">
+<h2>Locate All controls<a class="headerlink" href="#locate-all-controls" title="Permalink to this headline">¶</a></h2>
+<p>In a nutshell, Locate all controls iterates over the controls in the UI Map and identifies the ones that can’t be found using the current CSS Selectors.
+Missing controls will be marked in red.</p>
+<img alt="../_images/locating_controls.gif" class="align-center" src="../_images/locating_controls.gif" />
+</div>
+<div class="section" id="repeat-area-recording">
+<h2>Repeat Area Recording<a class="headerlink" href="#repeat-area-recording" title="Permalink to this headline">¶</a></h2>
+<p>Repeat Area Recording is an easy way to repeat the recording within the areas you clicked while first creating the UI Map. This will take into account the recording settings currently saved
+to the file. This will add any new controls that is not currently in the UI Map.</p>
+<img alt="../_images/repeat_area_recording.gif" class="align-center" src="../_images/repeat_area_recording.gif" />
+</div>
+<div class="section" id="update-controls-with-new-references">
+<h2>Update Controls with new References<a class="headerlink" href="#update-controls-with-new-references" title="Permalink to this headline">¶</a></h2>
+<p>The third step is to update broken controls with new ones recorded using either the area recording or the click recording tool.</p>
+<img alt="../_images/update_control_refs.gif" class="align-center" src="../_images/update_control_refs.gif" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../tests/coded_tests.html" class="btn btn-neutral float-right" title="C# Coded Tests" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../recording/control_attributes.html" class="btn btn-neutral float-left" title="Control Attributes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, BIZDIRECT Consulting INC.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
