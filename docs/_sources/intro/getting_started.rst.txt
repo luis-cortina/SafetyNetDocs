@@ -31,7 +31,7 @@ CLick create project and wait for it to be created. The current template include
 Nuget Packages
 --------------
 
-Most nuget packages are installed wit the test project and they only need to be updated when required.
+Most nuget packages are installed with the test project and they only need to be updated when required.
 
 `SafetyNet.UIMaps.Framework: <https://www.nuget.org/packages/SafetyNet.UIMaps.Framework/>`_
 Contains classes to wrap controls into classes that makes it easy to use them. Also contains settings and other utility classes.

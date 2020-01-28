@@ -25,6 +25,9 @@ if errorlevel 9009 (
 	exit /b 1
 )
 
+
+rmdir /s /q %BUILDDIR%
+
 %SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS%
 goto end
 
@@ -33,3 +36,7 @@ goto end
 
 :end
 popd
+
+xcopy /s/e /y %BUILDDIR%\html  ..\docs
+
+
