@@ -30,3 +30,18 @@ CLick create project and wait for it to be created. The current template include
 
 Nuget Packages
 --------------
+
+Most nuget packages are installed wit the test project and they only need to be updated when required.
+
+`SafetyNet.UIMaps.Framework: <https://www.nuget.org/packages/SafetyNet.UIMaps.Framework/>`_
+Contains classes to wrap controls into classes that makes it easy to use them. Also contains settings and other utility classes.
+
+`SafetyNet.UIMaps.Testing: <https://www.nuget.org/packages/SafetyNet.UIMaps.Testing/>`_
+Contains helper classes for creating tests using the UI.
+
+`SafetyNet.UIMaps.WebDriver: <https://www.nuget.org/packages/SafetyNet.UIMaps.WebDriver/>`_
+This is the strong named version of the original Selenium nuget package.
+
+`SafetyNet.UIMaps.ChromeDriver: <https://www.nuget.org/packages/SafetyNet.UIMaps.ChromeDriver/>`_
+Contains the chromedriver.exe file needed to execute chrome tests.
+

@@ -37,6 +37,13 @@ We do not believe that Record and Playback is the right way to create a successf
 * Test early and often to maximize the test framework benefits.
 
 
+Developers and Testers Collaboration
+====================================
+
+For testers with no coding or Selenium experience, there will be issues they won't be able to overcome on their own. 
+We allow developers to use code to solve some of these issues and then the testers to be able to consume them through the UI.
+
+
 .. toctree::
    :maxdepth: 3
    :hidden:
