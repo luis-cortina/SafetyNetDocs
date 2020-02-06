@@ -30,3 +30,19 @@ Data Sources
 ------------
 
 So far, only CSV files are supported as data sources. More will come in the future.
+
+Reusing Tests
+-------------
+
+Partial tests allows the tester to reuse specific set of actions in multiple tests. This allows to have a single place to edit those actions thus increasing maintainability.
+
+Export Test will create a new test file in the project.
+
+.. image:: images/extract_partial_test.gif
+   :align: center
+
+Import Test will add the step into the current test.
+
+.. image:: images/import_test.gif
+   :align: center
+

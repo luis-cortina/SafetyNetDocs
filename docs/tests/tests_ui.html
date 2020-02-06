@@ -102,6 +102,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#creating-test-steps">Creating Test Steps</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#parameters">Parameters</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-sources">Data Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reusing-tests">Reusing Tests</a></li>
 </ul>
 </li>
 </ul>
@@ -192,6 +193,14 @@ All these steps are then translated into a C# Test class that can be run standal
 <div class="section" id="data-sources">
 <h2>Data Sources<a class="headerlink" href="#data-sources" title="Permalink to this headline">¶</a></h2>
 <p>So far, only CSV files are supported as data sources. More will come in the future.</p>
+</div>
+<div class="section" id="reusing-tests">
+<h2>Reusing Tests<a class="headerlink" href="#reusing-tests" title="Permalink to this headline">¶</a></h2>
+<p>Partial tests allows the tester to reuse specific set of actions in multiple tests. This allows to have a single place to edit those actions thus increasing maintainability.</p>
+<p>Export Test will create a new test file in the project.</p>
+<img alt="../_images/extract_partial_test.gif" class="align-center" src="../_images/extract_partial_test.gif" />
+<p>Import Test will add the step into the current test.</p>
+<img alt="../_images/import_test.gif" class="align-center" src="../_images/import_test.gif" />
 </div>
 </div>
 
