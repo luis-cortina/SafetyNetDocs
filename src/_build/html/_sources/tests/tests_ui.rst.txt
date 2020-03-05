@@ -46,3 +46,22 @@ Import Test will add the step into the current test.
 .. image:: images/import_test.gif
    :align: center
 
+Encrypt Values
+--------------
+
+When creating tests, certain information should be protected and excluded from the application code. You can automatically encrypt any parameter value or test step value by clicking
+lock button on the side. This will hide the real value and will decrypt it only at test run time.
+
+.. image:: images/encrypt_values.png
+   :align: center
+
+Waiting for controls
+--------------------
+
+The test runner automatically waits for elements to be ready for any actions you want to perform, but sometimes you will need to specify how long to wait for a control to be visible
+or not.
+TO do this select on the **More Settings** button and select how long to wait for an element to show or hide.
+
+.. image:: images/wait_elements.png
+   :align: center
+

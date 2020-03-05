@@ -103,6 +103,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#parameters">Parameters</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-sources">Data Sources</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#reusing-tests">Reusing Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#encrypt-values">Encrypt Values</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#waiting-for-controls">Waiting for controls</a></li>
 </ul>
 </li>
 </ul>
@@ -201,6 +203,19 @@ All these steps are then translated into a C# Test class that can be run standal
 <img alt="../_images/extract_partial_test.gif" class="align-center" src="../_images/extract_partial_test.gif" />
 <p>Import Test will add the step into the current test.</p>
 <img alt="../_images/import_test.gif" class="align-center" src="../_images/import_test.gif" />
+</div>
+<div class="section" id="encrypt-values">
+<h2>Encrypt Values<a class="headerlink" href="#encrypt-values" title="Permalink to this headline">¶</a></h2>
+<p>When creating tests, certain information should be protected and excluded from the application code. You can automatically encrypt any parameter value or test step value by clicking
+lock button on the side. This will hide the real value and will decrypt it only at test run time.</p>
+<img alt="../_images/encrypt_values.png" class="align-center" src="../_images/encrypt_values.png" />
+</div>
+<div class="section" id="waiting-for-controls">
+<h2>Waiting for controls<a class="headerlink" href="#waiting-for-controls" title="Permalink to this headline">¶</a></h2>
+<p>The test runner automatically waits for elements to be ready for any actions you want to perform, but sometimes you will need to specify how long to wait for a control to be visible
+or not.
+TO do this select on the <strong>More Settings</strong> button and select how long to wait for an element to show or hide.</p>
+<img alt="../_images/wait_elements.png" class="align-center" src="../_images/wait_elements.png" />
 </div>
 </div>
 
