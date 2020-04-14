@@ -22,6 +22,16 @@ Everytime you drag a control or browser action, a popup shows up with the availa
 .. image:: images/test_steps.gif
    :align: center
 
+Random Values
+-------------
+You need to generate unique, random values for certain steps. You can use the Dynamic Values syntax to do so.
+In the Test Step Creation dialog you can use a combination of the different values to obtain a dynamic string.
+
+.. image:: images/dynamic_values.png
+   :align: center
+
+For a random email account, you can set the value to: {L|6}{D|2}@email.com.
+
 Parameters
 ----------
 You can also have test level parameters that you can use to set values throughout the test.

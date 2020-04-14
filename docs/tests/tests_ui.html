@@ -100,6 +100,7 @@
 <li class="toctree-l1"><a class="reference internal" href="coded_tests.html">C# Coded Tests</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Creating Tests using the UI</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#creating-test-steps">Creating Test Steps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#random-values">Random Values</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#parameters">Parameters</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-sources">Data Sources</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#reusing-tests">Reusing Tests</a></li>
@@ -187,6 +188,13 @@ All these steps are then translated into a C# Test class that can be run standal
 <li><p>For browser actions: Maximize, Refresh and Go To Url.</p></li>
 </ul>
 <img alt="../_images/test_steps.gif" class="align-center" src="../_images/test_steps.gif" />
+</div>
+<div class="section" id="random-values">
+<h2>Random Values<a class="headerlink" href="#random-values" title="Permalink to this headline">¶</a></h2>
+<p>You need to generate unique, random values for certain steps. You can use the Dynamic Values syntax to do so.
+In the Test Step Creation dialog you can use a combination of the different values to obtain a dynamic string.</p>
+<img alt="../_images/dynamic_values.png" class="align-center" src="../_images/dynamic_values.png" />
+<p>For a random email account, you can set the value to: <a class="reference external" href="mailto:{L|6}{D|2}&#37;&#52;&#48;email&#46;com">{L|6}{D|2}<span>&#64;</span>email<span>&#46;</span>com</a>.</p>
 </div>
 <div class="section" id="parameters">
 <h2>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h2>
